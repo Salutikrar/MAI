@@ -1,9 +1,9 @@
-all: child.out main
+all: child main
 
 child:
         gcc child.c -o child.out
 
-var13:
+main:
         gcc main.c -o main
 
 clean:
